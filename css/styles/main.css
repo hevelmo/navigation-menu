@@ -76,6 +76,12 @@ section, footer, nav{
     padding-bottom: 10px;
     padding-top: 10px;
 }
+#colorNav > ul > li > a > img.img-disabled {
+	opacity: 0.4;
+}
+#colorNav > ul > li > a > img.img-disabled.active {
+	opacity: 1;
+}
 
 #colorNav li ul{
 	position:absolute;
