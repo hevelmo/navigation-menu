@@ -69,7 +69,7 @@
                         <ul>
                             <li class="white marginbottom">
                                 <a href="#" class="">
-                                    <img src="img/agencias/brands/logo_ford_cavsa_140x82.png" alt="" class="img-disabled active">
+                                    <img src="img/agencias/brands/logo_ford_cavsa_140x82.png" alt="" class="img-disabled">
                                 </a>
                                 <ul>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Back to the tutorial</a></li>
