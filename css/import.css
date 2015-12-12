@@ -60,9 +60,6 @@
 	/* ------------------------------------------------------ *\
 		[styles] remark extras
 	\* ------------------------------------------------------ */
-		/*
-		*/
-		@import url(main.css);
 		@import url(styles/remark-main-intranet.css);
 		@import url(styles/basscss.css);
 		@import url(styles/hint.css);
