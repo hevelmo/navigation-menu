@@ -103,6 +103,10 @@ section, footer, nav{
 	-moz-transition:max-height 0.4s linear;
 	transition:max-height 0.4s linear;
 }
+#colorNav li ul.pos-top {	
+}
+#colorNav li ul.pos-bottom {
+}
 
 #colorNav li ul li{
 	background-color:#313131;

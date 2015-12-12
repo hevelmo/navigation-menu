@@ -69,9 +69,9 @@
                         <ul>
                             <li class="white marginbottom">
                                 <a href="#" class="">
-                                    <img src="img/agencias/brands/logo_ford_cavsa_140x82.png" alt="" class="img-disabled">
+                                    <img src="img/agencias/brands/logo_ford_cavsa_140x82.png" alt="" class="img-disabled active">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Back to the tutorial</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/#comments">Get help</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Download this example</a></li>
@@ -81,7 +81,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_jaguar_land_rover_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="#">Payment</a></li>
                                     <li><a href="#">Notifications</a></li>
                                     <li><a href="#">Privacy options</a></li>
@@ -92,7 +92,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_lincoln_cavsa_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="http://twitter.com/Tutorialzine">Follow us on Twitter</a></li>
                                     <li><a href="http://www.facebook.com/Tutorialzine">Find us on Facebook</a></li>
                                 </ul>
@@ -101,7 +101,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_mazda_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/tag/php/">PHP tutorials</a></li>
                                     <li><a href="http://tutorialzine.com/tag/jquery/">jQuery techniques</a></li>
                                     <li><a href="http://tutorialzine.com/tag/css/">CSS articles</a></li>
@@ -112,7 +112,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_syc_motors_chrysler_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
                                 </ul>
                             </li>
@@ -120,7 +120,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_mitsubishi_motors_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
                                 </ul>
                             </li>
@@ -138,7 +138,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_volvo_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-bottom">
                                     <li><a href="#">Payment</a></li>
                                     <li><a href="#">Notifications</a></li>
                                     <li><a href="#">Privacy options</a></li>
@@ -149,7 +149,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_vw_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-bottom">
                                     <li><a href="http://twitter.com/Tutorialzine">Follow us on Twitter</a></li>
                                     <li><a href="http://www.facebook.com/Tutorialzine">Find us on Facebook</a></li>
                                 </ul>
@@ -158,7 +158,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_suzuki_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/tag/php/">PHP tutorials</a></li>
                                     <li><a href="http://tutorialzine.com/tag/jquery/">jQuery techniques</a></li>
                                     <li><a href="http://tutorialzine.com/tag/css/">CSS articles</a></li>
@@ -169,7 +169,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_peugeot_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
                                 </ul>
                             </li>
@@ -177,7 +177,7 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_ssandier_brp_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
                                 </ul>
                             </li>
