@@ -205,8 +205,10 @@
                                             </a>
                                             <div class="result-item-image">
                                                 <a href="vehicle-details.html" class="media-box"><img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt=""></a>
-                                                <span class="label label-default vehicle-age">2014</span>
-                                                <span class="label label-success premium-listing">Premium Listing</span>
+                                                <div class="result-item-labels clearfix">
+                                                    <span class="label label-default vehicle-age">2014</span>
+                                                    <span class="label label-success premium-listing">Premium Listing</span>
+                                                </div>
                                                 <!--<div class="result-item-view-buttons">
                                                     <a href="https://www.youtube.com/watch?v=P5mvnA4BV7Y" data-rel="prettyPhoto"><i class="fa fa-play"></i> View video</a>
                                                     <a href="vehicle-details.html"><i class="fa fa-plus"></i> View details</a>
@@ -242,8 +244,10 @@
                                             </a>
                                             <div class="result-item-image">
                                                 <a href="vehicle-details.html" class="media-box"><img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt=""></a>
-                                                <span class="label label-default vehicle-age">2014</span>
-                                                <span class="label label-success premium-listing">Premium Listing</span>
+                                                <div class="result-item-labels clearfix">
+                                                    <span class="label label-default vehicle-age">2014</span>
+                                                    <span class="label label-success premium-listing">Premium Listing</span>
+                                                </div>
                                                 <!--<div class="result-item-view-buttons">
                                                     <a href="https://www.youtube.com/watch?v=P5mvnA4BV7Y" data-rel="prettyPhoto"><i class="fa fa-play"></i> View video</a>
                                                     <a href="vehicle-details.html"><i class="fa fa-plus"></i> View details</a>
@@ -279,8 +283,10 @@
                                             </a>
                                             <div class="result-item-image">
                                                 <a href="vehicle-details.html" class="media-box"><img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt=""></a>
-                                                <span class="label label-default vehicle-age">2014</span>
-                                                <span class="label label-success premium-listing">Premium Listing</span>
+                                                <div class="result-item-labels clearfix">
+                                                    <span class="label label-default vehicle-age">2014</span>
+                                                    <span class="label label-success premium-listing">Premium Listing</span>
+                                                </div>
                                                 <!--<div class="result-item-view-buttons">
                                                     <a href="https://www.youtube.com/watch?v=P5mvnA4BV7Y" data-rel="prettyPhoto"><i class="fa fa-play"></i> View video</a>
                                                     <a href="vehicle-details.html"><i class="fa fa-plus"></i> View details</a>
@@ -362,7 +368,7 @@
                 overflow: visible;
                 opacity: 1;
                 text-indent: 0px;
-                font-size: 1.5em;
+                font-size: 1em;
                 -webkit-transform-timing-function: ease-out;
                 -moz-transform-timing-function: ease-out;
                 -ms-transform-timing-function: ease-out;
@@ -490,7 +496,7 @@
                 padding:15px 20px 5px 20px;
             }
             .results-grid-view .result-item-cont{
-                padding-bottom:10px;
+                padding-bottom:0px;
                 padding-top:0;
             }
             .result-item:before, .result-item:after, .result-item-cont:before, .result-item-cont:after{
@@ -514,6 +520,14 @@
                 float:left;
                 position:relative;
                 z-index:1;
+            }
+            .result-item-labels {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                margin: 0 auto;
+                background: #b21117;
             }
             .result-item-view-buttons:before, .result-item-view-buttons:after, .result-item-in:before, .result-item-in:after{
                 display:table;
@@ -551,18 +565,19 @@
             .result-item .premium-listing {
                 border-radius: 0px;
                 padding: 10px;
-                font-size: 1.3em;
+                font-size: 100%;
             }
             .result-item .vehicle-age {
                 background: #000;
                 color: #fff;
             }
             .result-item .premium-listing {
-                margin-left: -19px;
-                width: 83.4%;
+                margin-left: 0px;
                 position: relative;
-                background: #b21117;
+                background: transparent;
+                /*background: #b21117;*/
                 text-align: left;
+                max-width: 100%;
             }
             .result-item .vehicle-age, .result-item .premium-listing{
                 left:15px;
@@ -628,7 +643,7 @@
                 padding:0 20px;
             }
             .results-grid-view .result-item-features{
-                padding-top:5px;
+                padding: 15px;
             }
             .result-item-features li{
                 margin-bottom:5px;
@@ -683,7 +698,7 @@
                     display: inline-block;
                     margin-right: 20px;
                     position: relative;
-                    top: -10px;
+                    top: 0px;
                 }
                 .result-item-action-buttons{
                     display:inline-block;
@@ -713,9 +728,9 @@
                     text-align:left;
                 }
                 .result-item-pricing{
-                    display: inline-block;
-                    margin-right: 20px;
+                    display: block;
                     position: relative;
+                    text-align: center;
                 }
                 .result-item-pricing .price{
                     font-size:25px;
