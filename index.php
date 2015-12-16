@@ -188,7 +188,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -198,8 +197,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="mai" role="main">
             <div id="content" class="conten full">
                 <div class="container">
