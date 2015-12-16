@@ -71,118 +71,128 @@
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_ford_cavsa_140x82.png" alt="" class="img-disabled active">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Back to the tutorial</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/#comments">Get help</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Download this example</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white marginbottom">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_jaguar_land_rover_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="#">Payment</a></li>
                                     <li><a href="#">Notifications</a></li>
                                     <li><a href="#">Privacy options</a></li>
                                     <li><a href="#">Account Settings</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white marginbottom">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_lincoln_cavsa_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="http://twitter.com/Tutorialzine">Follow us on Twitter</a></li>
                                     <li><a href="http://www.facebook.com/Tutorialzine">Find us on Facebook</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white marginbottom">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_mazda_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/tag/php/">PHP tutorials</a></li>
                                     <li><a href="http://tutorialzine.com/tag/jquery/">jQuery techniques</a></li>
                                     <li><a href="http://tutorialzine.com/tag/css/">CSS articles</a></li>
                                     <li><a href="http://tutorialzine.com/category/tutorials/">Everything else</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white marginbottom">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_syc_motors_chrysler_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white marginbottom">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_mitsubishi_motors_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-top">
+                                <!--<ul class="pos-top">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_mercedes_benz_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul>
+                                <!--<ul>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Back to the tutorial</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/#comments">Get help</a></li>
                                     <li><a href="http://tutorialzine.com/2012/10/css3-dropdown-menu/">Download this example</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_volvo_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-bottom">
+                                <!--<ul class="pos-bottom">
                                     <li><a href="#">Payment</a></li>
                                     <li><a href="#">Notifications</a></li>
                                     <li><a href="#">Privacy options</a></li>
                                     <li><a href="#">Account Settings</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_vw_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-bottom">
+                                <!--<ul class="pos-bottom">
                                     <li><a href="http://twitter.com/Tutorialzine">Follow us on Twitter</a></li>
                                     <li><a href="http://www.facebook.com/Tutorialzine">Find us on Facebook</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_suzuki_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-bottom">
+                                <!--<ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/tag/php/">PHP tutorials</a></li>
                                     <li><a href="http://tutorialzine.com/tag/jquery/">jQuery techniques</a></li>
                                     <li><a href="http://tutorialzine.com/tag/css/">CSS articles</a></li>
                                     <li><a href="http://tutorialzine.com/category/tutorials/">Everything else</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_peugeot_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-bottom">
+                                <!--<ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                             <li class="white margintop">
                                 <a href="#" class="">
                                     <img src="img/agencias/brands/logo_ssandier_brp_140x82.png" alt="" class="img-disabled">
                                 </a>
-                                <ul class="pos-bottom">
+                                <!--<ul class="pos-bottom">
                                     <li><a href="http://tutorialzine.com/contact/">Contact us</a></li>
-                                </ul>
+                                </ul>-->
                             </li>
                         </ul>
                     </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block-spin-center">
+                        <div class="spin" data-spin />
+                    </div>
                 </div>
             </div>
         </div>
@@ -208,6 +218,8 @@
 		<script src="lib/forms.js"></script>
 		<script src="lib/sha512.js"></script>
 		<!-- PLUGINS -->
+        <script src="lib/plugins/jquery.spin.js"></script>
+
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>
