@@ -1,0 +1,123 @@
+.panel-body .panel-body-title {
+  display: block;
+  padding: 0px 0px;
+  font-size: 14px;
+  color: #37474f;
+  text-align: left;
+}
+.navbar-brand-site-logo {
+    height: 55px;
+    margin-top: -15px;
+}
+
+.dp-header {
+}
+
+.dp-header .dp-top {
+  overflow: hidden;
+}
+
+.dp-header .dp-top .dp-navlink {
+  display: block;
+}
+
+.dp-header .dp-navlink-menu {
+  overflow: hidden;
+  height: 0;
+}
+
+.dp-header .dp-navlink-menu ul {
+  	list-style-type: none;
+	padding: 0;
+}
+.dp-header .dp-navlink-menu ul li {
+}
+.dp-header .dp-navlink-menu ul li a {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 0px;
+  /*padding: 10px;
+  color: #fff;
+  font-size: 90%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);*/
+  display: block;
+}
+
+.dp-header .dp-navlink-menu ul li a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+/*
+.dp-header .dp-top {
+	overflow: hidden;
+}
+.dp-header .dp-top .dp-navlink {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 130%;
+  float: left;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.dp-header .dp-navlink-menu {
+  overflow: hidden;
+  height: 0;
+}
+.dp-header .dp-navlink-menu ul li a {
+  padding: 10px;
+  color: #fff;
+  font-size: 90%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.dp-header .dp-navlink-menu ul li a:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+*/
+/*.dp-navlink-menu {
+	position: relative;
+	box-shadow: none;
+	border: none;
+}*/
+.dropdown-menu  {
+  background: #fff;
+  border: 1px solid rgba(3, 3, 3, 0.5);
+  border-radius: 0px;
+  margin-top: -1px;
+  border-top-color: rgba(178, 17, 23, 0.5);
+  padding: 0;
+}
+.form-material .form-control, .form-material .form-control:focus, .form-material .form-control.focus {
+    background-image: none;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background-color: rgba(178, 17, 23, 0.1);
+  border-color: rgba(178, 17, 23, 0.9);
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  color: #030303;
+    background-color: rgba(178, 17, 23, 0.1);
+    border-color: rgba(178, 17, 23, 0.9);
+    font-weight: bold;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  background-color: rgba(178, 17, 23, 0.1);
+  border-color: rgba(178, 17, 23, 0.9);
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+  color: #030303;
+    background-color: rgba(178, 17, 23, 0.1);
+    border-color: rgba(178, 17, 23, 0.9);
+    font-weight: bold;
+}
+.dropdown-menu > li {
+  padding: 0;
+  margin: 0;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background: rgba(178, 17, 23, 0.1);
+  border-radius: 0;
+  font-weight: bold;
+}

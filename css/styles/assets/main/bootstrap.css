@@ -2354,7 +2354,7 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #76838f;
+  color: #796464;
   background-color: #b1c2c8;
   border-color: #99b0b7;
 }
@@ -2791,19 +2791,20 @@ tbody.collapse.in {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  /* padding: 5px 0; */
   margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
   background-color: #fff;
   -webkit-background-clip: padding-box;
-          background-clip: padding-box;
-  border: 1px solid #ccc;
-  border: 1px solid #e4eaec;
-  border-radius: 3px;
+  background-clip: padding-box;
+  border: 1px solid #A59F9F;
+  border: 1px solid #A59F9F;
+  border-top: none;
+  border-radius: 0;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 .dropdown-menu.pull-right {
   right: 0;
@@ -2826,9 +2827,10 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #76838f;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   background-color: #f3f7f9;
+  font-weight: 400;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,

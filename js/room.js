@@ -8,7 +8,7 @@
             section = "home";
         },
         load: function(bindings) {
-            viewSectionHomeMethod.viewSectionHome();
+            
         },
         unload: function(bindings) {
             section = "";

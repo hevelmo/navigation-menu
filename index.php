@@ -777,6 +777,8 @@
             }
         </style>
 
+        <script src="http://maps.google.com/maps/api/js?v=3.5&amp;sensor=false" type="text/javascript"></script>
+
 		<!-- MAIN -->
 		<script src="lib/jquery.js"></script>
 		<script src="lib/modernizr.js"></script>
@@ -797,9 +799,6 @@
 		<script src="lib/sha512.js"></script>
 		<!-- PLUGINS -->
         <script src="lib/plugins/jquery.spin.js"></script>
-
-        <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAZBe7uHI90ESk2XAmWRL3RxR6u04U0tImA3bfwZ3-HKdEno7z2xRk2YE6OkudtBX5qy0vLrgbf1DUCg"></script>
-
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>
