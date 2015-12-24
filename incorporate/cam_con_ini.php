@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (C) 2015 Virbac México
+ * Copyright (C) 2015 CAMCAR
  *
  */
 
@@ -19,4 +19,3 @@ if(!in_array($_SERVER['SERVER_NAME'], $devserverlist)){
 }
 
 define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
-

@@ -1,8 +1,9 @@
 <?php
 /*
- * Copyright (C) 2013 Virbac México
- * Waxtotem, 2014.09.04
+ * Copyright (C) 2015 Camcar
+ *  
  * 
  */
  
-include 'pro_con_ini.php';   // As functions.php is not included
+include 'cam_con_ini.php';   // As functions.php is not included
+$mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);

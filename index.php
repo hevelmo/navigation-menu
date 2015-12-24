@@ -188,7 +188,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" style="display: none;">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="block-spin-center">
@@ -197,7 +197,7 @@
                 </div>
             </div>
         </div>
-        <div class="mai" role="main">
+        <div class="mai" role="main" style="display: none;">
             <div id="content" class="conten full">
                 <div class="container">
                     <div class="row">
@@ -331,7 +331,6 @@
                 </div>
             </div>
         </div>
-
 
         <style>
             .views-details {
@@ -798,6 +797,8 @@
 		<script src="lib/sha512.js"></script>
 		<!-- PLUGINS -->
         <script src="lib/plugins/jquery.spin.js"></script>
+
+        <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAZBe7uHI90ESk2XAmWRL3RxR6u04U0tImA3bfwZ3-HKdEno7z2xRk2YE6OkudtBX5qy0vLrgbf1DUCg"></script>
 
 		<!-- CORE JS -->
         <?php /*
