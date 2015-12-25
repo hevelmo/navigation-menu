@@ -63,6 +63,38 @@
     	<div id='hidden-inputs-temporal'></div>
     	<!--Templates's DIV-->
     	<div class="wrapper_content_interactive" id='content-temporal-interactive'></div>
+        <div id="content-start-dealer-search-map" class="about-content">
+            <div id="map" style="display: none;"></div>
+        </div>
+
+        <div id="map-side-bar" style="display: none;">
+          <div class="map-location" data-jmapping="{id: 1, point: {lng: -122.2678847, lat: 37.8574888}, category: 'market'}">
+            <a href="#" class="map-link">Berkeley Bowl</a>
+            <div class="info-box">
+              <p>A great place to get all your groceries, especially fresh fruits and vegetables.</p>
+            </div>
+          </div>
+          <div class="map-location" data-jmapping="{id: 2, point: {lng: -122.4391131, lat: 37.7729943}, category: 'restaurant'}">
+            <a href="#" class="map-link">Nopalito</a>
+            <div class="info-box">
+              <p>The best authentic Mexican restaurant in San Francisco.</p>
+            </div>
+          </div>
+          <div class="map-location" data-jmapping="{id: 3, point: {lng: -122.4481651, lat: 37.8042096}, category: 'museum'}">
+            <a href="#" class="map-link">Exploratorium</a>
+            <div class="info-box">
+              <p>A hands-on museum of science, art, and human perception in San Francisco.</p>
+            </div>
+          </div>
+        </div>
+        <style>
+            #map {
+                width: 600px;
+                height: 460px;
+                float: left;
+            }
+        </style>
+
 
         <div class="container" style="display: none;">
             <div class="row">
@@ -778,27 +810,32 @@
         </style>
 
         <script src="http://maps.google.com/maps/api/js?v=3.5&amp;sensor=false" type="text/javascript"></script>
-
-		<!-- MAIN -->
-		<script src="lib/jquery.js"></script>
-		<script src="lib/modernizr.js"></script>
-		<script src="lib/bootstrap.js"></script>
-		<!-- CORE -->
-		<script src="lib/jquery.gdb.js"></script>
-		<script src="lib/jquery-ui.js"></script>
-		<script src="lib/underscore.js"></script>
-		<script src="lib/moment.js"></script>
-		<script src="lib/accounting.js"></script>
-		<script src="lib/finch.js"></script>
-		<!-- HANDLEBARS -->
-		<script src="lib/handlebars.runtime.js"></script>
-		<!-- TEMPLATES -->
-		<script src='templates/min/templates.min.js'></script>
-		<!-- FORMS -->
-		<script src="lib/forms.js"></script>
-		<script src="lib/sha512.js"></script>
-		<!-- PLUGINS -->
+        <!-- MAIN -->
+        <script src="lib/jquery.js"></script>
+        <script src="lib/modernizr.js"></script>
+        <script src="lib/bootstrap.js"></script>
+        <!-- CORE -->
+        <script src="lib/jquery.gdb.js"></script>
+        <script src="lib/jquery-ui.js"></script>
+        <script src="lib/underscore.js"></script>
+        <script src="lib/moment.js"></script>
+        <script src="lib/accounting.js"></script>
+        <script src="lib/finch.js"></script>
+        <!-- HANDLEBARS -->
+        <script src="lib/handlebars.runtime.js"></script>
+        <!-- TEMPLATES -->
+        <script src='templates/min/templates.min.js'></script>
+        <!-- FORMS -->
+        <script src="lib/forms.js"></script>
+        <script src="lib/sha512.js"></script>
+        <!-- PLUGINS -->
         <script src="lib/plugins/jquery.spin.js"></script>
+        <!-- GOOGLE MAPS -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script src="lib/jquery.jmapping/jquery.jmapping.js" type="text/javascript"></script>
+        <script src="lib/jquery.jmapping/jquery.metadata.js" type="text/javascript"></script>
+        <script src="lib/jquery.jmapping/markermanager.js" type="text/javascript"></script>
+        <script src="lib/jquery.jmapping/StyledMarker.js" type="text/javascript"></script>        
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>

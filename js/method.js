@@ -423,6 +423,22 @@
         }
     }
 /* ------------------------------------------------------ *\
+    [Methods] agentMapMethod
+\* ------------------------------------------------------ */
+    var agentMapMethod = {
+        agentMap: function() {
+            $('#map').jMapping({
+                map_config: {
+                    scrollwheel: false,
+                    zoom: 11,
+                    mapTypeControlOptions: {
+                        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                    },
+                }
+            });
+        }
+    }
+/* ------------------------------------------------------ *\
     [Methods] inputVal
 \* ------------------------------------------------------ */
     var inputValMetdods = {
