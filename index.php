@@ -21,6 +21,8 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,900,100' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,100,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href="css/import.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl-carousel/owl.theme.css" rel="stylesheet">
 
         <script>
             var nav = navigator.appName;
@@ -188,6 +190,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< Updated upstream
         <div class="container" style="display: none;">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -197,6 +200,9 @@
                 </div>
             </div>
         </div>
+=======
+
+>>>>>>> Stashed changes
         <div class="mai" role="main" style="display: none;">
             <div id="content" class="conten full">
                 <div class="container">
@@ -331,6 +337,86 @@
                 </div>
             </div>
         </div>
+
+        <div id="demo">
+            <div class="container">
+              <div class="row">
+                <div class="span12">
+                  <h1>Demo</h1>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span12">
+
+                  <div id="owl-example" class="owl-carousel" data-columns="3" data-autoplay="" data-pagination="yes" data-arrows="no" data-single-item="no" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
+
+                    <div class="item darkCyan">
+                      <img src="assets/img/demo-slides/touch.png" alt="Touch">
+                        <h3>Touch</h3>
+                        <h4>Can touch this</h4>
+                    </div>
+                    <div class="item forestGreen">
+                      <img src="assets/img/demo-slides/grab.png" alt="Grab">
+                        <h3>Grab</h3>
+                        <h4>Can grab this</h4>
+                    </div>
+                    <div class="item orange">
+                      <img src="assets/img/demo-slides/responsive.png" alt="Responsive">
+                        <h3>Responsive</h3>
+                        <h4>Fully responsive!</h4>
+                    </div>
+
+                    <div class="item yellow">
+                      <img src="assets/img/demo-slides/css3.png" alt="CSS3">
+                        <h3>CSS3</h3>
+                        <h4>3D Acceleration.</h4>
+                    </div>
+
+                    <div class="item dodgerBlue">
+                      <img src="assets/img/demo-slides/multi.png" alt="Multi">
+                        <h3>Multiply</h3>
+                        <h4>Owls on page.</h4>
+                    </div>
+
+                    <div class="item skyBlue">
+                      <img src="assets/img/demo-slides/modern.png" alt="Modern Browsers">
+                        <h3>Modern</h3>
+                        <h4>Browsers Compatibility</h4>
+                    </div>
+
+                    <div class="item zombieGreen">
+                      <img src="assets/img/demo-slides/zombie.png" alt="Zombie Browsers - old ones">
+                        <h3>Zombie</h3>
+                        <h4>Browsers Compatibility</h4>
+                    </div>
+
+                    <div class="item violet">
+                      <img src="assets/img/demo-slides/controls.png" alt="Take Control">
+                        <h3>Take Control</h3>
+                        <h4>The way you like</h4>
+                    </div>
+
+                    <div class="item yellowLight">
+                      <img src="assets/img/demo-slides/feather.png" alt="Light">
+                        <h3>Light</h3>
+                        <h4>As a feather</h4>
+                    </div>
+
+                    <div class="item steelGray">
+                      <img src="assets/img/demo-slides/tons.png" alt="Tons of Opotions">
+                        <h3>Tons</h3>
+                        <h4>of options</h4>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+
+            </div>
+          </div>
 
         <style>
             .views-details {
@@ -795,11 +881,17 @@
 		<!-- FORMS -->
 		<script src="lib/forms.js"></script>
 		<script src="lib/sha512.js"></script>
+<<<<<<< Updated upstream
 		<!-- PLUGINS -->
         <script src="lib/plugins/jquery.spin.js"></script>
 
         <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAZBe7uHI90ESk2XAmWRL3RxR6u04U0tImA3bfwZ3-HKdEno7z2xRk2YE6OkudtBX5qy0vLrgbf1DUCg"></script>
 
+=======
+
+        <!-- PLUGINS -->
+        <script src="lib/owl-carousel/owl.carousel.js"></script>
+>>>>>>> Stashed changes
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>

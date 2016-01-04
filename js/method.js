@@ -149,6 +149,56 @@
         docHead:document.getElementsByTagName("head")[0]
     }
 /* ------------------------------------------------------ *\
+    [functions] owlCarousel
+\* ------------------------------------------------------ */
+    var owlCarouselMethods = {
+        owlCarousel : function () {
+            $('.owl-carousel').each(function() {
+                var carouselInstance, carouselColumns, carouselitemsDesktop, carouselitemsDesktopSmall,
+                    carouselitemsTablet, carouselitemsMobile, carouselAutoplay, carouselPagination,
+                    carouselArrows, carouselSingle, carouselStyle;
+
+                carouselInstance = $(this);
+                carouselColumns = carouselInstance.attr("data-columns")
+                    ? carouselInstance.attr("data-columns") : "1";
+                carouselitemsDesktop = carouselInstance.attr("data-items-desktop")
+                    ? carouselInstance.attr("data-items-desktop") : "4";
+                carouselitemsDesktopSmall = carouselInstance.attr("data-items-desktop-small")
+                    ? carouselInstance.attr("data-items-desktop-small") : "3";
+                carouselitemsTablet = carouselInstance.attr("data-items-tablet")
+                    ? carouselInstance.attr("data-items-tablet") : "2";
+                carouselitemsMobile = carouselInstance.attr("data-items-mobile")
+                    ? carouselInstance.attr("data-items-mobile") : "1";
+                carouselAutoplay = carouselInstance.attr("data-autoplay")
+                    ? carouselInstance.attr("data-autoplay") : false;
+                carouselPagination = carouselInstance.attr("data-pagination") == 'yes'
+                    ? true : false;
+                carouselArrows = carouselInstance.attr("data-arrows") == 'yes'
+                    ? true : false;
+                carouselSingle = carouselInstance.attr("data-single-item") == 'yes'
+                    ? true : false;
+                carouselStyle = carouselInstance.attr("data-style")
+                    ? carouselInstance.attr("data-style") : "fade";
+
+                carouselInstance.owlCarousel({
+                    items: carouselColumns,
+                    autoPlay : carouselAutoplay,
+                    navigation : carouselArrows,
+                    pagination : carouselPagination,
+                    itemsDesktop : [1199, carouselitemsDesktop],
+                    itemsDesktopSmall : [979, carouselitemsDesktopSmall],
+                    itemsTablet : [768, carouselitemsTablet],
+                    itemsMobile : [479, carouselitemsMobile],
+                    singleItem : carouselSingle,
+                    navigationText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+                    stopOnHover : true,
+                    lazyLoad : true,
+                    transitionStyle: 'carouselStyle'
+                });
+            });
+        }
+    }
+/* ------------------------------------------------------ *\
     [Methods] sticky_wrapper_methods
 \* ------------------------------------------------------ */
     var sticky_wrapper_methods = {

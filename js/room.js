@@ -10,6 +10,8 @@
         load: function(bindings) {
             //addText.addTexto();
             //viewSectionHomeMethod.viewSectionHome();
+            owlCarouselMethods.owlCarousel();
+            $("#owl-example").owlCarousel();
         },
         unload: function(bindings) {
             section = "";
