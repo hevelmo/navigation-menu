@@ -12,6 +12,7 @@
             //viewSectionHomeMethod.viewSectionHome();
             owlCarouselMethods.owlCarousel();
             $("#owl-example").owlCarousel();
+            load_map.load();
         },
         unload: function(bindings) {
             section = "";

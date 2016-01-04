@@ -336,7 +336,7 @@
             </div>
         </div>
 
-        <div id="demo">
+        <!--<div id="demo" style="display: none;">
             <div class="container">
               <div class="row">
                 <div class="span12">
@@ -414,7 +414,7 @@
               </div>
 
             </div>
-          </div>
+          </div>-->
 
         <style>
             .views-details {
@@ -861,6 +861,91 @@
             }
         </style>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div id="listado-links-multi-column" class="seccion-n-p mapa  contenedor  height-41">
+                        <div class="row-lista row-lista-60">
+                            <div class="pure-g">
+                                <ul class="txt080 pure-u-1-2">
+                                    <li><a href="../../hoteles-en/177/ahualulco-de-mercado-jalisco.html" title="Hoteles en Ahualulco de Mercado" id="link-177">Ahualulco de Mercado</a></li>
+                                    <li><a href="../../hoteles-en/874/ajijic-jalisco.html" title="Hoteles en Ajijic" id="link-874">Ajijic</a></li>
+                                    <li><a href="../../hoteles-en/179/ameca-jalisco.html" title="Hoteles en Ameca" id="link-179">Ameca</a></li>
+                                    <li><a href="../../hoteles-en/180/arandas-jalisco.html" title="Hoteles en Arandas" id="link-180">Arandas</a></li>
+                                    <li><a href="../../hoteles-en/181/atotonilco-el-alto-jalisco.html" title="Hoteles en Atotonilco El Alto" id="link-181">Atotonilco El Alto</a></li>
+                                    <li><a href="../../hoteles-en/182/autlan-jalisco.html" title="Hoteles en Autlán" id="link-182">Autlán</a></li>
+                                    <li><a href="../../hoteles-en/183/ayotlan-jalisco.html" title="Hoteles en Ayotlán" id="link-183">Ayotlán</a></li>
+                                    <li><a href="../../hoteles-en/187/bahia-de-chamela-jalisco.html" title="Hoteles en Bahía de Chamela" id="link-187">Bahía de Chamela</a></li>
+                                    <li><a href="../../hoteles-en/184/barra-de-navidad-jalisco.html" title="Hoteles en Barra de Navidad" id="link-184">Barra de Navidad</a></li>
+                                    <li><a href="../../hoteles-en/185/careyes-jalisco.html" title="Hoteles en Careyes" id="link-185">Careyes</a></li>
+                                    <li><a href="../../hoteles-en/875/chapala-jalisco.html" title="Hoteles en Chapala" id="link-875">Chapala</a></li>
+                                    <li><a href="../../hoteles-en/186/ciudad-guzman-jalisco.html" title="Hoteles en Ciudad Guzmán" id="link-186">Ciudad Guzmán</a></li>
+                                    <li><a href="../../hoteles-en/190/concepcion-de-buenos-aires-jalisco.html" title="Hoteles en Concepción de Buenos Aires" id="link-190">Concepción de Buenos Aires</a></li>
+                                    <li><a href="../../hoteles-en/191/costalegre-jalisco.html" title="Hoteles en Costalegre" id="link-191">Costalegre</a></li>
+                                    <li><a href="../../hoteles-en/192/cruz-de-loreto-jalisco.html" title="Hoteles en Cruz de Loreto" id="link-192">Cruz de Loreto</a></li>
+                                    <li><a href="../../hoteles-en/193/cuastecomates-jalisco.html" title="Hoteles en Cuastecomates" id="link-193">Cuastecomates</a></li>
+                                    <li><a href="../../hoteles-en/194/cuquio-jalisco.html" title="Hoteles en Cuquio" id="link-194">Cuquio</a></li>
+                                    <li><a href="../../hoteles-en/195/el-grullo-jalisco.html" title="Hoteles en El Grullo" id="link-195">El Grullo</a></li>
+                                    <li><a href="../../hoteles-en/197/encarnacion-de-diaz-jalisco.html" title="Hoteles en Encarnación de Díaz" id="link-197">Encarnación de Díaz</a></li>
+                                    <li><a href="../../hoteles-en/198/etzatlan-jalisco.html" title="Hoteles en Etzatlán" id="link-198">Etzatlán</a></li>
+                                    <li><a href="../../hoteles-en/199/guadalajara-jalisco.html" title="Hoteles en Guadalajara" id="link-199">Guadalajara</a></li>
+                                    <li><a href="../../hoteles-en/201/jalostotitlan-jalisco.html" title="Hoteles en Jalostotitlán" id="link-201">Jalostotitlán</a></li>
+                                    <li><a href="../../hoteles-en/203/jocotepec-jalisco.html" title="Hoteles en Jocotepec" id="link-203">Jocotepec</a></li>
+                                    <li><a href="../../hoteles-en/204/la-barca-jalisco.html" title="Hoteles en La Barca" id="link-204">La Barca</a></li>
+                                    <li><a href="../../hoteles-en/205/la-manzanilla-jalisco.html" title="Hoteles en La Manzanilla" id="link-205">La Manzanilla</a></li>
+                                    <li><a href="../../hoteles-en/206/lagos-de-moreno-jalisco.html" title="Hoteles en Lagos de Moreno" id="link-206">Lagos de Moreno</a></li>
+                                    <li><a href="../../hoteles-en/656/laguna-de-juanacatlan-jalisco.html" title="Hoteles en Laguna de Juanacatlán" id="link-656">Laguna de Juanacatlán</a></li>
+                                    <li><a href="../../hoteles-en/207/magdalena-jalisco.html" title="Hoteles en Magdalena" id="link-207">Magdalena</a></li>
+                                    <li><a href="../../hoteles-en/209/mascota-jalisco.html" title="Hoteles en Mascota" id="link-209">Mascota</a></li>
+                                    <li><a href="../../hoteles-en/210/mazamitla-jalisco.html" title="Hoteles en Mazamitla" id="link-210">Mazamitla</a></li>
+                                    <li><a href="../../hoteles-en/211/melaque-jalisco.html" title="Hoteles en Melaque" id="link-211">Melaque</a></li>
+                                    <li><a href="../../hoteles-en/212/ocotlan-jalisco.html" title="Hoteles en Ocotlán" id="link-212">Ocotlán</a></li>
+                                    <li><a href="../../hoteles-en/214/puerto-vallarta-jalisco.html" title="Hoteles en Puerto Vallarta" id="link-214">Puerto Vallarta</a></li>
+                                    <li><a href="../../hoteles-en/215/punta-perula-jalisco.html" title="Hoteles en Punta Pérula" id="link-215">Punta Pérula</a></li>
+                                    <li><a href="../../hoteles-en/216/quemaro-jalisco.html" title="Hoteles en Quémaro" id="link-216">Quémaro</a></li>
+                                    <li><a href="../../hoteles-en/218/san-gabriel-jalisco.html" title="Hoteles en San Gabriel" id="link-218">San Gabriel</a></li>
+                                    <li><a href="../../hoteles-en/219/san-juan-cosala-jalisco.html" title="Hoteles en San Juan Cosala" id="link-219">San Juan Cosala</a></li>
+                                    <li><a href="../../hoteles-en/220/san-juan-de-los-lagos-jalisco.html" title="Hoteles en San Juan de los Lagos" id="link-220">San Juan de los Lagos</a></li>
+                                    <li><a href="../../hoteles-en/650/san-julian-jalisco.html" title="Hoteles en San Julián" id="link-650">San Julián</a></li>
+                                    <li><a href="../../hoteles-en/221/san-miguel-el-alto-jalisco.html" title="Hoteles en San Miguel el Alto" id="link-221">San Miguel el Alto</a></li>
+                                    <li><a href="../../hoteles-en/657/san-sebastian-del-oeste-jalisco.html" title="Hoteles en San Sebastián del Oeste" id="link-657">San Sebastián del Oeste</a></li>
+                                    <li><a href="../../hoteles-en/223/sayula-jalisco.html" title="Hoteles en Sayula" id="link-223">Sayula</a></li>
+                                    <li><a href="../../hoteles-en/224/talpa-jalisco.html" title="Hoteles en Talpa" id="link-224">Talpa</a></li>
+                                    <li><a href="../../hoteles-en/225/tamazula-jalisco.html" title="Hoteles en Tamazula" id="link-225">Tamazula</a></li>
+                                    <li><a href="../../hoteles-en/226/tapalpa-jalisco.html" title="Hoteles en Tapalpa" id="link-226">Tapalpa</a></li>
+                                    <li><a href="../../hoteles-en/227/tecalitlan-jalisco.html" title="Hoteles en Tecalitlán" id="link-227">Tecalitlán</a></li>
+                                    <li><a href="../../hoteles-en/228/tenacatita-jalisco.html" title="Hoteles en Tenacatita" id="link-228">Tenacatita</a></li>
+                                    <li><a href="../../hoteles-en/229/teocaltiche-jalisco.html" title="Hoteles en Teocaltiche" id="link-229">Teocaltiche</a></li>
+                                    <li><a href="../../hoteles-en/230/tepatitlan-jalisco.html" title="Hoteles en Tepatitlán" id="link-230">Tepatitlán</a></li>
+                                    <li><a href="../../hoteles-en/231/tequila-jalisco.html" title="Hoteles en Tequila" id="link-231">Tequila</a></li>
+                                    <li><a href="../../hoteles-en/866/teuchitlan-jalisco.html" title="Hoteles en Teuchitlán" id="link-866">Teuchitlán</a></li>
+                                    <li><a href="../../hoteles-en/232/tlaquepaque-jalisco.html" title="Hoteles en Tlaquepaque" id="link-232">Tlaquepaque</a></li>
+                                    <li><a href="../../hoteles-en/233/tomatlan-jalisco.html" title="Hoteles en Tomatlán" id="link-233">Tomatlán</a></li>
+                                    <li><a href="../../hoteles-en/234/tonala-jalisco.html" title="Hoteles en Tonalá" id="link-234">Tonalá</a></li>
+                                    <li><a href="../../hoteles-en/235/tonaya-jalisco.html" title="Hoteles en Tonaya" id="link-235">Tonaya</a></li>
+                                    <li><a href="../../hoteles-en/236/tuxpan-jalisco.html" title="Hoteles en Tuxpan" id="link-236">Tuxpan</a></li>
+                                    <li><a href="../../hoteles-en/237/union-de-san-antonio-jalisco.html" title="Hoteles en Unión de San Antonio" id="link-237">Unión de San Antonio</a></li>
+                                    <li><a href="../../hoteles-en/239/villa-corona-jalisco.html" title="Hoteles en Villa Corona" id="link-239">Villa Corona</a></li>
+                                    <li><a href="../../hoteles-en/240/villa-hidalgo-jalisco.html" title="Hoteles en Villa Hidalgo" id="link-240">Villa Hidalgo</a></li>
+                                    <li><a href="../../hoteles-en/241/yahualica-jalisco.html" title="Hoteles en Yahualica" id="link-241">Yahualica</a></li>
+                                    <li><a href="../../hoteles-en/242/yelapa-jalisco.html" title="Hoteles en Yelapa" id="link-242">Yelapa</a></li>
+                                    <li><a href="../../hoteles-en/244/zapotlanejo-jalisco.html" title="Hoteles en Zapotlanejo" id="link-244">Zapotlanejo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div id="map_canvas" style="width:100%; height:100%; display:block; margin:0; padding:0; "></div>
+                    <div id="tooltip"></div>
+                </div>
+            </div>
+        </div>
+
 		<!-- MAIN -->
 		<script src="lib/jquery.js"></script>
 		<script src="lib/modernizr.js"></script>
@@ -887,6 +972,8 @@
 
         <!-- PLUGINS -->
         <script src="lib/owl-carousel/owl.carousel.js"></script>
+
+
 
 		<!-- CORE JS -->
         <?php /*
