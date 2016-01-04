@@ -190,7 +190,7 @@
                 </div>
             </div>
         </div>
-<<<<<<< Updated upstream
+
         <div class="container" style="display: none;">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -200,9 +200,7 @@
                 </div>
             </div>
         </div>
-=======
 
->>>>>>> Stashed changes
         <div class="mai" role="main" style="display: none;">
             <div id="content" class="conten full">
                 <div class="container">
@@ -881,17 +879,15 @@
 		<!-- FORMS -->
 		<script src="lib/forms.js"></script>
 		<script src="lib/sha512.js"></script>
-<<<<<<< Updated upstream
+
 		<!-- PLUGINS -->
         <script src="lib/plugins/jquery.spin.js"></script>
 
         <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAZBe7uHI90ESk2XAmWRL3RxR6u04U0tImA3bfwZ3-HKdEno7z2xRk2YE6OkudtBX5qy0vLrgbf1DUCg"></script>
 
-=======
-
         <!-- PLUGINS -->
         <script src="lib/owl-carousel/owl.carousel.js"></script>
->>>>>>> Stashed changes
+
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>
