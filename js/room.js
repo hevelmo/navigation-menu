@@ -8,7 +8,7 @@
             section = "home";
         },
         load: function(bindings) {
-            //agentMapMethod.agentMap();
+            agentMapMethod.agentMap_jMapping();
         },
         unload: function(bindings) {
             section = "";

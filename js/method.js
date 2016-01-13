@@ -426,7 +426,7 @@
     [Methods] agentMapMethod
 \* ------------------------------------------------------ */
     var agentMapMethod = {
-        agentMap: function() {
+        agentMap_jMapping: function() {
             $('#map').jMapping({
                 map_config: {
                     scrollwheel: false,

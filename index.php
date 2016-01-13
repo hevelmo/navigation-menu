@@ -63,11 +63,12 @@
     	<div id='hidden-inputs-temporal'></div>
     	<!--Templates's DIV-->
     	<div class="wrapper_content_interactive" id='content-temporal-interactive'></div>
+
         <div id="content-start-dealer-search-map" class="about-content">
-            <div id="map" style="display: none;"></div>
+            <div id="map"></div>
         </div>
 
-        <div id="map-side-bar" style="display: none;">
+        <div id="map-side-bar">
           <div class="map-location" data-jmapping="{id: 1, point: {lng: -122.2678847, lat: 37.8574888}, category: 'market'}">
             <a href="#" class="map-link">Berkeley Bowl</a>
             <div class="info-box">
@@ -94,8 +95,7 @@
                 float: left;
             }
         </style>
-
-
+        <?php /*
         <div class="container" style="display: none;">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -363,7 +363,7 @@
                 </div>
             </div>
         </div>
-
+        */ ?>
         <style>
             .views-details {
                 display: inline-block;
@@ -808,8 +808,7 @@
                 }
             }
         </style>
-
-        <script src="http://maps.google.com/maps/api/js?v=3.5&amp;sensor=false" type="text/javascript"></script>
+        <script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false" type="text/javascript"></script>
         <!-- MAIN -->
         <script src="lib/jquery.js"></script>
         <script src="lib/modernizr.js"></script>
@@ -835,7 +834,10 @@
         <script src="lib/jquery.jmapping/jquery.jmapping.js" type="text/javascript"></script>
         <script src="lib/jquery.jmapping/jquery.metadata.js" type="text/javascript"></script>
         <script src="lib/jquery.jmapping/markermanager.js" type="text/javascript"></script>
-        <script src="lib/jquery.jmapping/StyledMarker.js" type="text/javascript"></script>        
+        <script src="lib/jquery.jmapping/StyledMarker.js" type="text/javascript"></script>
+        <?php /*
+        */ ?>
+
 		<!-- CORE JS -->
         <?php /*
 		<script src='js/min/core.min.js'></script>
